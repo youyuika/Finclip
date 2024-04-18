@@ -325,7 +325,7 @@ function back() {
 		fish.img = fish.num
 	}
 	localStorage.setItem("Fishes", JSON.stringify(system.fishes));
-	window.location.href = '../main_page/main_page.html'
+	window.location.href = 'index.html'
 }
 
 function code_input() {
@@ -352,5 +352,5 @@ function go_map() {
 		fish.img = fish.num
 	}
 	localStorage.setItem("Fishes", JSON.stringify(system.fishes));
-	window.location.href = '../map/map.html'
+	window.location.href = 'map.html'
 }
