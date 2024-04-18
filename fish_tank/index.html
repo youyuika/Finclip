@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style>
+		body {
+			height: 100vh;
+			padding: 0;
+			margin: 0;
+			background-color: #e9dbba;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0;
+		}
+
+		canvas {
+			position: relative;
+			top: -50px;
+			z-index: 1;
+		}
+	</style>
+	<script src="../p5.min.js"></script>
+	<script src="sketch.js"></script>
+	<link rel=" stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+	<main>
+		<div id="canvas_holder">
+			<button id="back_button" onclick="back()">
+				<img src="../assets/back.png" width="100%">
+			</button>
+			<input type="text" id="code_input" name="code_input">
+			<button id="input_button" onclick="code_input()">
+				輸入
+			</button>
+			<button id="map_button" onclick="go_map()">
+				魚類地圖
+			</button>
+		</div>
+	</main>
+</body>
+
+</html>
