@@ -1,0 +1,51 @@
+.rectangle-area {
+    width: 400px;
+    height: 720px;
+    background-color: #1b1b1b;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: relative;
+}
+
+.rectangle-area img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35px;
+    max-width: 330px;
+    max-height: 330px;
+}
+
+.rectangle-area button {
+    width: 260px;
+    height: 45px;
+    background-color: rgb(181, 218, 238);
+    border-radius: 10px;
+
+    color: #1b1b1b;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "黑體-繁";
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#fish_tank {
+    top: 75px;
+}
+
+#remaining {
+    top: 110px;
+}
+
+#exchange {
+    top: 145px;
+}
+
+#about_us {
+    top: 180px;
+}
