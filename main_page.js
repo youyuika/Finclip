@@ -5,13 +5,13 @@ function delete_fishes() {
 }
 
 function fish_tank() {
-    window.location.href = "../fish_tank/index.html";
+    window.location.href = "fish_tank.html";
 }
 
 function in_development() {
-    window.location.href = "../in_development/in_development.html";
+    window.location.href = "in_development.html";
 }
 
 function about_us() {
-    window.location.href = "../about_us/about_us.html";
+    window.location.href = "about_us.html";
 }
