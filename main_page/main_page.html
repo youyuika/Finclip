@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body {
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            background-color: #e9dbba;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <script src="../p5.min.js"></script>
+    <script src="main_page.js"></script>
+    <link rel=" stylesheet" type="text/css" href="main_page.css">
+</head>
+
+<body>
+    <main>
+        <div class="rectangle-area">
+            <img src="../assets/main_page.png" onclick="delete_fishes()">
+            <button id="fish_tank" onclick="fish_tank()">
+                查看我的魚缸
+            </button>
+            <button id="remaining" onclick="in_development()">
+                查詢周圍剩食
+            </button>
+            <button id="exchange" onclick="in_development()">
+                我要兌換
+            </button>
+            <button id="about_us" onclick="about_us()">
+                關於我們
+            </button>
+        </div>
+    </main>
+</body>
+
+</html>
