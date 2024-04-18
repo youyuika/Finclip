@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
             box.classList.add('box');
 
             const image = document.createElement('img');
-            image.src = "../assets/00" + i + ".png";
+            image.src = "assets/00" + i + ".png";
             box.appendChild(image);
 
             const textElement = document.createElement('p');
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
             box.classList.add('box');
 
             const image = document.createElement('img');
-            image.src = "../assets/0" + i + ".png";
+            image.src = "assets/0" + i + ".png";
             box.appendChild(image);
 
             const textElement = document.createElement('p');
@@ -62,5 +62,5 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function back() {
-    window.location.href = '../fish_tank/index.html'
+    window.location.href = 'fish_tank.html'
 }
